@@ -30,8 +30,6 @@ public class piGreco extends Thread{
                 i = i + 2;
                 flag = 0;  
             }
-    
-            //Thread.currentThread().interrupt();
         }
         System.out.println("piGreco calcolato: " + p);
         System.out.println("piGreco Math.PI: " + Math.PI);
